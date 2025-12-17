@@ -4,7 +4,19 @@ import React from 'react'
 
 const StackLayout = () => {
   return (
-     <Stack>
+     <Stack
+        screenOptions={{
+            //headerShown:false,
+            headerShadowVisible: false,
+            animation: 'ios_from_left',
+            contentStyle:{
+                backgroundColor: 'white',
+            }
+
+
+        }}
+     
+     >
          <Stack.Screen 
          name="home/index"
          options={{
@@ -17,6 +29,7 @@ const StackLayout = () => {
          name="products/index"
          options={{
             title:'Productos screen',
+            animation: 'fade_from_bottom',
 
          }}
          />
