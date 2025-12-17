@@ -1,1 +1,16 @@
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://docs.expo.dev/versions/latest/sdk/safe-area-context/ (import { SafeAreaView } from 'react-native-safe-area-context';)
+
+#NaveScreen
+#redirect( desde el index principal solo)
+
+import { Redirect } from "expo-router"
+
+return <Redirect href={'/(home)'}/>
+
+#links
+import { Link } from 'expo-router'
+return(
+
+<Link href={'/product'}>home</Link>
+ <Link href={'/'}>home</Link>
