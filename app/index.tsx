@@ -1,11 +1,23 @@
 import React from 'react'
 import { Text, View } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const App  = () => {
   return (
-   <View className='mt-10'>
-    <Text className='text-3xl font-bold text-blue-500'>Hola Mundo</Text>
-   </View>
+
+    <SafeAreaView>
+             <View className='mt-5 mx-2.5'>
+              <Text 
+              style={{fontFamily: 'WorkSans-Black'}}
+              className='text-5xl '>Hola Mundo</Text>
+
+
+              <Text className='text-4xl font-work-medium'>Hola Mundo</Text>
+            <Text className='text-3xl font-work-light'>Hola Mundo</Text>
+             </View>
+    </SafeAreaView>
+
+  
   )
 }
 
