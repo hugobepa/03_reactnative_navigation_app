@@ -1,3 +1,4 @@
+//https://docs.expo.dev/router/advanced/stack/
 import { useFonts } from 'expo-font';
 import { Slot, SplashScreen } from 'expo-router';
 import React, { useEffect } from 'react';
@@ -25,7 +26,8 @@ useEffect(() => {
 if(!fontsLoaded && !error) return null
 
   return (
-    <Slot/>
+     <Slot/>
+    //<Stack/>
   )
 }
 

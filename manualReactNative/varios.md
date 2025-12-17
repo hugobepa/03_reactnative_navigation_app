@@ -18,3 +18,6 @@ return(
 #forwardRef- dprecrted
 https://react.dev/reference/react/forwardRef (decraped)
 https://react.dev/learn/manipulating-the-dom-with-refs
+
+#navegacion StackNavigation
+https://docs.expo.dev/router/advanced/stack/
