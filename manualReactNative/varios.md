@@ -14,3 +14,7 @@ return(
 
 <Link href={'/product'}>home</Link>
  <Link href={'/'}>home</Link>
+
+#forwardRef- dprecrted
+https://react.dev/reference/react/forwardRef (decraped)
+https://react.dev/learn/manipulating-the-dom-with-refs

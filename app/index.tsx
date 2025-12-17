@@ -7,6 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context"
 
 
 
+
 const App  = () => {
 
   //return <Redirect href={'/products'}/>
@@ -39,8 +40,12 @@ const App  = () => {
 
              <CustomButton color='primary' onPress={()=>router.push('/products')}>Productos</CustomButton>
             <Link href='/products' asChild>
-              <CustomButton color='primary'>ProductosLink</CustomButton>
+              <CustomButton  className='my-5' color='primary'>ProductosLink</CustomButton>
             </Link>
+
+             <CustomButton variant="text-only" onPress={()=>router.push('/products')}>ProductosTextOnly</CustomButton>
+
+
 
              </View>
 
