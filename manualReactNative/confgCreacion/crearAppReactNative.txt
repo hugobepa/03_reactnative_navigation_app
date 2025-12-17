@@ -3,7 +3,7 @@ https://docs.expo.dev/get-started/create-a-project/
 npx create-expo-app@latest ./ --template blank-typescript
 npx create-expo-app@latest ./ (por defecto)
 
-npm start
+npm start -c
 
 a (abrir movil)
 r  (recargar app)
