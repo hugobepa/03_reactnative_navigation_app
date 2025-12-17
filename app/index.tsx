@@ -1,6 +1,7 @@
 //https://docs.expo.dev/versions/latest/sdk/safe-area-context/
 
-import { Link } from "expo-router"
+import CustomButton from "@/components/shared/CustomButton"
+import { Link, router } from "expo-router"
 import { Text, View } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
 
@@ -17,7 +18,7 @@ const App  = () => {
   return (
       <SafeAreaView>
 
-            <View className='mt-5 mx-2.5 bg-primary '>
+            <View className='mt-5 mx-2.5 bg-tertiary '>
               <Text 
               style={{fontFamily: 'WorkSans-Black'}}
               className='text-5xl '>Hola Mundo</Text>
@@ -34,8 +35,12 @@ const App  = () => {
             <Link  className='mb-5'  href={'/profile'}>Profile</Link>
             <Link  className='mb-5'  href={'/settings'}>Ajustes</Link>
            
+             
 
-
+             <CustomButton color='primary' onPress={()=>router.push('/products')}>Productos</CustomButton>
+            <Link href='/products' asChild>
+              <CustomButton color='primary'>ProductosLink</CustomButton>
+            </Link>
 
              </View>
 
