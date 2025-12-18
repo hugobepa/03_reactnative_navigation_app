@@ -22,28 +22,28 @@ const HomeScreen = () => {
             <Text className='text-3xl font-work-light text-secondary-100'>Hola Mundo</Text>
             <Text className='text-3xl font-work-light text-tertiary'>Hola Mundo</Text>
 
-            <Link className='mb-5' href={'/products'}>Productos</Link>
+            {/* <Link className='mb-5' href={'/products'}>Productos</Link>
             <Link  className='mb-5'  href={'/profile'}>Profile</Link>
             <Link  className='mb-5'  href={'/settings'}>Ajustes</Link>
-           
+            */}
              
 
-             <CustomButton className="mb-2" color='primary' onPress={()=>router.push('/tabs/(stack)/products')}>
+             <CustomButton className="mb-2" color='primary' onPress={()=>router.push('/drawer/tabs/(stack)/products')}>
               Productos</CustomButton>
             
 
              
 
-              <CustomButton className="mb-2" color='secondary'  onPress={()=>router.push('/tabs/(stack)/profile')}>
+              <CustomButton className="mb-2" color='secondary'  onPress={()=>router.push('/drawer/tabs/(stack)/profile')}>
               Profile</CustomButton>
 
-              <CustomButton className="mb-2" color='primary'  onPress={()=>router.push('/tabs/(stack)/settings')}>
+              <CustomButton className="mb-2" color='primary'  onPress={()=>router.push('/drawer/tabs/(stack)/settings')}>
               Settings</CustomButton>
 
-              <CustomButton className="mb-2" variant="text-only" onPress={()=>router.push('/tabs/(stack)/profile')}>
+              <CustomButton className="mb-2" variant="text-only" onPress={()=>router.push('/drawer/tabs/(stack)/profile')}>
               ProfileTextOnly</CustomButton>
 
-              <Link href='/tabs/products' asChild>
+              <Link href='/drawer/tabs/products' asChild>
               <CustomButton  className='my-5' color='primary'>ProductosLink</CustomButton>
             </Link>
               
