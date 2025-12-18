@@ -50,6 +50,13 @@ const StackLayout = () => {
          }}
          />
 
+            <Stack.Screen 
+         name="products/[id]"
+         options={{
+            title:'Producto',
+
+         }}
+         />
      </Stack>
   )
 }
