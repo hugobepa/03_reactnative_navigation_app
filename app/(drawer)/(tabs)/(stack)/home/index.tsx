@@ -28,22 +28,22 @@ const HomeScreen = () => {
             */}
              
 
-             <CustomButton className="mb-2" color='primary' onPress={()=>router.push('/drawer/tabs/(stack)/products')}>
+             <CustomButton className="mb-2" color='primary' onPress={()=>router.push('/products')}>
               Productos</CustomButton>
             
 
              
 
-              <CustomButton className="mb-2" color='secondary'  onPress={()=>router.push('/drawer/tabs/(stack)/profile')}>
+              <CustomButton className="mb-2" color='secondary'  onPress={()=>router.push('/profile')}>
               Profile</CustomButton>
 
-              <CustomButton className="mb-2" color='primary'  onPress={()=>router.push('/drawer/tabs/(stack)/settings')}>
+              <CustomButton className="mb-2" color='primary'  onPress={()=>router.push('/settings')}>
               Settings</CustomButton>
 
-              <CustomButton className="mb-2" variant="text-only" onPress={()=>router.push('/drawer/tabs/(stack)/profile')}>
+              <CustomButton className="mb-2" variant="text-only" onPress={()=>router.push('/profile')}>
               ProfileTextOnly</CustomButton>
 
-              <Link href='/drawer/tabs/products' asChild>
+              <Link href='/products' asChild>
               <CustomButton  className='my-5' color='primary'>ProductosLink</CustomButton>
             </Link>
               
