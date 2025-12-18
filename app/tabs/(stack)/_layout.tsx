@@ -6,7 +6,7 @@ const StackLayout = () => {
   return (
      <Stack
         screenOptions={{
-            //headerShown:false,
+            headerShown:false,
             headerShadowVisible: false,
             animation: 'ios_from_left',
             contentStyle:{
