@@ -11,7 +11,8 @@ const App  = () => {
   //return <Redirect href={'/products'}/>
   //return <Redirect href={'/(home)'}/>
   //return <Redirect href={'/settings'}/>
-  return <Redirect href={'/(stack)/home'}/>
+  //return <Redirect href={'/(stack)/home'}/>
+  return <Redirect href={'/drawer'}/>
 
      
 

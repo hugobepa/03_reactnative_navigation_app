@@ -21,3 +21,11 @@ https://react.dev/learn/manipulating-the-dom-with-refs
 
 #navegacion StackNavigation
 https://docs.expo.dev/router/advanced/stack/
+https://docs.expo.dev/router/advanced/tabs/
+https://docs.expo.dev/router/advanced/drawer/
+https://github.com/DevTalles-corp/expo-navigation-app/blob/fin-seccion-07/app/_layout.tsx
+https://reactnavigation.org/docs/drawer-navigator/
+
+#iconos
+https://docs.expo.dev/guides/icons/
+https://ionic.io/ionicons
